@@ -1,0 +1,25 @@
+{
+  "hash": "98893d84",
+  "configHash": "60919ad2",
+  "lockfileHash": "7107fb15",
+  "browserHash": "61962bbe",
+  "optimized": {
+    "mockjs": {
+      "src": "../../../../../node_modules/mockjs/dist/mock.js",
+      "file": "mockjs.js",
+      "fileHash": "ef1d5932",
+      "needsInterop": true
+    },
+    "uview-plus": {
+      "src": "../../../../../node_modules/uview-plus/index.js",
+      "file": "uview-plus.js",
+      "fileHash": "5f1cf2cb",
+      "needsInterop": false
+    }
+  },
+  "chunks": {
+    "chunk-Y2F7D3TJ": {
+      "file": "chunk-Y2F7D3TJ.js"
+    }
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "navigationBarTitleText": "",
+  "usingComponents": {
+    "up-notice-bar": "../../node-modules/uview-plus/components/u-notice-bar/u-notice-bar",
+    "up-textarea": "../../node-modules/uview-plus/components/u-textarea/u-textarea",
+    "u-form-item": "../../node-modules/uview-plus/components/u-form-item/u-form-item",
+    "u-button": "../../node-modules/uview-plus/components/u-button/u-button",
+    "u-form": "../../node-modules/uview-plus/components/u-form/u-form",
+    "u-card": "../../node-modules/uview-plus/components/u-card/u-card"
+  }
+}

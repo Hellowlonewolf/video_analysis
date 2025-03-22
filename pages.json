@@ -1,0 +1,69 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": ""
+			}
+		},
+
+		{
+			"path" : "pages/my/my",
+			"style" : 
+			{
+				"navigationBarTitleText" : "",
+				"enablePullDownRefresh": false
+			}
+		},
+			{
+					"path": "pages/link_sharing/link_sharing",
+					"style": {
+						"navigationBarTitleText": "",
+						"enablePullDownRefresh": false // 可选，根据需要开启下拉刷新
+					}
+				}
+	],
+	"tabBar": {
+		"color": "#7a7e83",
+		// 点击后的颜色
+		"selectedColor": "#2867ce",
+		"borderStyle": "white",
+		"backgroundColor": "#fff",
+		// 页面路径
+		"list": [
+			{
+				"pagePath": "pages/index/index",
+				"iconPath": "static/tabbar/ly-home01.png",
+				"selectedIconPath": "static/tabbar/ly-home.png",
+				"text": "首页"
+			},	{
+				"pagePath": "pages/link_sharing/link_sharing",
+				"iconPath": "static/tabbar/ly-link01.png",
+				"selectedIconPath": "/static/tabbar/ly-link.png",
+				"text": "链接分享"
+			}, {
+				"pagePath": "pages/my/my",	
+				"iconPath": "static/tabbar/ly-my01.png",
+				"selectedIconPath": "static/tabbar/ly-my.png",
+				"text": "我的"
+			}
+		]
+	}
+	,
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"uniIdRouter": {},
+	"easycom": {
+		"autoscan": true,
+		// 注意一定要放在custom里，否则无效，https://ask.dcloud.net.cn/question/131175
+		"custom": {
+			"^u--(.*)": "uview-plus/components/u-$1/u-$1.vue",
+			"^up-(.*)": "uview-plus/components/u-$1/u-$1.vue",
+			"^u-([^-].*)": "uview-plus/components/u-$1/u-$1.vue"
+			}
+	}
+}

@@ -1,0 +1,1 @@
+{"version":3,"file":"like.js","sources":["D:/HBuilderX.4.56.2025031210/HBuilderX/plugins/uniapp-cli-vite/uniPage:/cGFnZXMvbGlrZS9saWtlLnZ1ZQ"],"sourcesContent":["import MiniProgramPage from 'E:/we_app/travel_uniapp/pages/like/like.vue'\nwx.createPage(MiniProgramPage)"],"names":["MiniProgramPage"],"mappings":";;;;;;;;;;;;;;;;;;;;;;;;;;;;AACA,GAAG,WAAWA,SAAe;"}
