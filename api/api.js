@@ -1,4 +1,5 @@
 import http from "./http"
+import wxhttp from "./wx_http"
 
 // 首页banner
 export const getBanner = () => {
@@ -14,6 +15,12 @@ export const getHomeList = () => {
 // 登录
 export const login = (code) => {
 	return http('/login', { code }, 'POST')
+}
+
+export const WXlogin = (code) => {
+	console.log(code)
+	code=encodeURIComponent(code)
+	return wxhttp(url, {}, 'GET')
 }
 
 // 获取用户信息
